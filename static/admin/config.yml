@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: willianjusten/gatsby-course
+  repo: faustinopsy/ceuvagox
   branch: master
-  site_domain: gatsby-course-will.netlify.com
+  site_domain: ceuvago.com
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"
@@ -28,20 +28,18 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["jekyll", "css", "js", "html", "svg", "dev", "misc"]
+        options: ["Ateísmo", "Deus", "Bíblia", "Filosofia", "Religião"]
       }
       - {
         label: "Background",
         name: "background",
         widget: "select",
         options: [
-          { label: "Jekyll", value: "#B31917" },
-          { label: 'CSS', value: '#2DA0C3' },
-          { label: 'JS', value: '#D6BA32' },
-          { label: 'HTML', value: '#EB7728' },
-          { label: 'SVG', value: '#7D669E' },
-          { label: 'Dev', value: '#637a91' },
-          { label: 'Misc', value: '#7AAB13' },
+          { label: "Ateísmo", value: "#7d669e" },
+          { label: 'Deus', value: '#D7DF01' },
+          { label: 'Bíblia', value: '#FF0040' },
+          { label: 'Filosofia', value: '#FAAC58' },
+          { label: 'Religião', value: '#2E64FE' },
         ]
       }
       - { label: "Body", name: "body", widget: "markdown" }
