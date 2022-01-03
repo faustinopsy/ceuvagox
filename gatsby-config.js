@@ -7,7 +7,7 @@ module.exports = {
     position: `Conhecimento é poder.`,
     description: `Um Blog para desmitificar a bíblia, a religião e os deuses.`,
     author: `@ceuvago`,
-    siteUrl: `https://gatsby-course-will.netlify.com`,
+    siteUrl: `https://ceuvago.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
